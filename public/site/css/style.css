@@ -254,7 +254,7 @@ section.inner-one-band.one-band {margin-top: 80px;}
 .project-data ul li:nth-last-child(1) {border-bottom: none;}
 .project-data ul li .fas {position: absolute;left: 0;top: 14px;color: #01284a;font-size: 13px;}
 .project-img {overflow: hidden;}
-.project-img img{transition: ease all 3s;max-height:238px;}
+.project-img img{transition: ease all 3s;height:238px;}
 .project-details:hover .project-img img {transition: ease all 3s;transform: scale(1.1);}
 .project-logo {position: absolute;top: -70px;max-width: 100px;left: 20px;}
 .project-logo img {outline: 1px solid #fff;outline-offset: 4px;background: #fff;padding: 5px;height: 50px}
