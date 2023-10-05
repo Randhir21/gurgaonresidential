@@ -75,7 +75,38 @@
             <h1 class="section-title inner-heading">
                Deen Dayal Floors </h1>
             <div class="row">
-               <div class="col-lg-4 col-md-12">
+
+                <div class="col-lg-4 col-md-12">
+                  <div class="project-details">
+                     <div class="project-img">
+                        <img src="public/site/img/m3m-antalya-hills.jpg" class="img-fluid w-100" alt="m3m 65th avenue commericial price">
+                     </div>
+                     <div class="project-data">
+                        <h3>
+                           M3M Antalya Hills   </h3>
+                        <ul>
+                           <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                              Sector 79, Gurgaon </li>
+                           <li><i class="fas fa-store-alt" aria-hidden="true"></i>
+                             Luxury independent Floors </li>
+                           <!-- <li><i class="fas fa-certificate" aria-hidden="true"></i> A Paradise of Exquisite Delicacies  </li> -->
+                           <li><i class="fas fa-expand-arrows-alt" aria-hidden="true"></i>
+                              On Request </li>
+                           <li><i class="fas fa-rupee-sign" aria-hidden="true"></i>
+                              On Request </li>
+                        </ul>
+                       
+                     </div>
+                     <div class="btn-group w-100" role="group" aria-label="Basic example">
+                        <a type="button" class="btn btn-primary" href="tel:8123002525">CALL NOW</a>
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalEnquireNow53">Enquire Now</button>
+                     </div>
+                     <h4> M3M Antalya Hills </h4>
+                  </div>
+               </div> 
+
+               
+<!--                <div class="col-lg-4 col-md-12">
                   <div class="project-details">
                      <div class="project-img">
                         <img src="public/site/img/paras-ekam.png" class="img-fluid w-100" alt="m3m 65th avenue commericial price">
@@ -103,13 +134,13 @@
                      <h4>
                         Paras Ekam Homes DDJAY Plots </h4>
                   </div>
-               </div>
+               </div> -->
 
 
 
 
 
-               <div class="col-lg-4 col-md-12">
+<!--                <div class="col-lg-4 col-md-12">
                   <div class="project-details">
                      <div class="project-img">
                         <img src="public/site/img/ddjay.png" class="img-fluid w-100" alt="m3m 65th avenue commericial price" title="m3m heights 65th avenue">
@@ -138,12 +169,12 @@
                      <h4>
                         DDJAY Plots  </h4>
                   </div>
-               </div>
+               </div> -->
 
 
 
 
-              <div class="col-lg-4 col-md-12">
+<!--               <div class="col-lg-4 col-md-12">
                   <div class="project-details">
                      <div class="project-img">
                         <img src="public/site/img/green-valley.jpg" class="img-fluid w-100" alt="m3m 65th avenue commericial price" title="m3m heights 65th avenue">
@@ -171,7 +202,7 @@
                      <h4>
                         Green Valley Plots Sohna –  DDJAY Plots </h4>
                   </div>
-               </div>
+               </div> -->
 
 
 
@@ -281,7 +312,7 @@
                   </div>
                </div>
 
-               <div class="col-lg-4 col-md-12">
+<!--                <div class="col-lg-4 col-md-12">
                   <div class="project-details">
                      <div class="project-img">
                         <img src="public/admin/PropertyImage/1654506297Smart%20World%20City%20Of%20Dreams.png"
@@ -315,7 +346,7 @@
                      <h4>
                         Premium Floors </h4>
                   </div>
-               </div>
+               </div> -->
 
 
 
@@ -682,7 +713,7 @@
 
 
 
-               <div class="col-lg-4 col-md-12">
+<!--                <div class="col-lg-4 col-md-12">
                   <div class="project-details">
                      <div class="project-img">
                         <img src="public/admin/PropertyImage/1654508151Signature%20golbal%20city%2081.jpg"
@@ -716,7 +747,7 @@
                      <h4>
                         Signature Global City 81 </h4>
                   </div>
-               </div>
+               </div> -->
 
 
 
@@ -2765,10 +2796,30 @@
                               <input type="text" class="form-control" name="name" id="name" placeholder="Name"
                                  onkeypress="return isNAME(event)">
                            </div>
-<!--                            <div class="col-lg-12 col-md-12">
-                              <input type="email" class="form-control" name="email" id="emailid"
-                                 placeholder="Email ID">
-                           </div> -->
+                        <div class="col-lg-12 col-md-12">
+<!--                               <input type="email" class="form-control" name="email" id="emailid"
+                                 placeholder="Email ID"> -->
+                           <select class="form-control" name="project">
+      <option>TREHAN</option>
+      <option>VICTORY</option>
+      <option>ANANTRAJ</option>
+      <option>SIGNATURE GLOBAL PARK</option>
+      <option>SIGNATURE GLOBAL CITY 92</option>
+      <option>SIGNATURE GLOBAL CITY 81</option>
+      <option>MRG FLOORS</option>
+      <option>ROF INSIGNIA PARK</option>
+      <option>PYRAMID SPRING VALLEY</option>
+      <option>JMS PRIMELAND INDEPENDENT</option>
+      <option>DLF GARDENCITY ENCLAVE</option>
+      <option>SIGNATURE GLOBAL CITY</option>
+      <option>SIGNATURE GLOBAL CITY 92</option>
+      <option>SIGNATURE GLOBAL CITY 63A</option>
+      <option>SMART WORLD GEMS</option>
+      <option>VATIKA XPRESSIONS</option>
+      <option>ACE PALM FLOORS</option>
+      
+    </select>
+                           </div> 
                            <div class="col-lg-12 col-md-12">
                               <input type="tel" class="form-control" name="phone" id="mobileno"
                                  placeholder="Mobile No " onkeypress="return isNumber(event)" maxlength="10">
@@ -3293,6 +3344,7 @@
             const email = formData.get("email");
             const mobile = formData.get("phone");
             const message = formData.get("message");
+            const project = formData.get("project");
 
             // Do something with the form data (e.g., send it to the server)
             console.log("Name:", name);
@@ -3306,7 +3358,7 @@
             To: "swastikshelters123@gmail.com", // Replace with your own email address
             From: "rps85071@gmail.com", // Use the user's entered email address as the "From" address
             Subject: "New Enquery from ",
-            Body: `Name: ${name}<br>Email: ${email}<br>Mob Number: ${mobile}<br>Message: ${message}`,
+            Body: `Name: ${name}<br>Email: ${email}<br>Mob Number: ${mobile}<br>Message: ${message} <br>Project: ${project}`,
         }).then(
           (message) =>  {message ? (window.location.href = "thanks.html") : alert(message);}).catch((error)=>console.log(error));
 
