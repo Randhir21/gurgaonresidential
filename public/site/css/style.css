@@ -167,7 +167,7 @@ header .navbar-expand-lg .navbar-nav .nav-item .dropdown-menu .nav-link:hover ul
 .footer-form p {margin: 0;font-size: 22px;font-weight: bolder;color: #fff;margin-right: 80px;}
 .footer-form p img {width: 45px;margin-right: 10px;background: #fff;padding: 10px;border-radius: 50%;}
 .footer-form .form-control {border-radius: 0;height: calc(1.5em + 0.75rem + 2px);}
-.footer-form .btn-primary:hover{background-color: #f29313; border-color: #f29313;}
+.footer-form .btn-primary:hover{background-color: #01284a; border-color: #01284a;}
 .footer-form .btn-primary {background-color: #f29313;border-color: #f29313;border-radius: 0;padding: 6px 60px;}
 .footer-form {position: fixed;display: block;bottom: 0;left: 0;right: 0;text-align: center;background: #01284a;padding: 5px 0;z-index: 9999999;}
 .copyright-top-strp {list-style-type: none;margin: 0 auto;text-align: center;background: #000;padding-left: 0;}
