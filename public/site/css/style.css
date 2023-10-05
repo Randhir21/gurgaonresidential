@@ -303,7 +303,7 @@ a{cursor: pointer !important;}
 .contact:after {background: #1b5ba817;position: absolute;content: '';top: 300px;bottom: 0;left: 0;right: 0;z-index: -1;}
 .contact-form {padding: 50px;background: #f29313;border: 1px solid #f29313;}
 .contact-form .section-title {color: #fff;}
-.contact-form .btn-primary {color: #fff;background-color: #f29313;border-color: #f29313;font-size: 18px;padding: 9px 50px;border-radius: 0px !important;}
+.contact-form .btn-primary {color: #fff;background-color: #01284a;border-color: #01284a;font-size: 18px;padding: 9px 50px;border-radius: 0px !important;}
 .contact-form .btn-primary:hover {color: #fff;background-color: #f29313;border-color: #f29313;font-size: 18px;padding: 9px 50px;border-radius: 0px !important;}
 .contact-form .form-control {margin: 10px 0;}
 .contact-form .form-control {border-radius: 0;height: calc(2.0em + 0.75rem + 2px);}
