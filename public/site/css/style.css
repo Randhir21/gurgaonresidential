@@ -125,7 +125,7 @@ html {scroll-behavior: smooth;}
 .faq-data-frg h3 .far {position: absolute;left: 0;top: 8px;color: #ff4700;}
 .fa-question-circle:before {content: "\f059";}
 .faq-data-frg h3 {font-size: 16px;padding-left: 25px;position: relative;line-height: 30px;}
-.contact-form p {font-size: 19px;font-weight: 700;text-align: center;width: 100%;margin: auto;margin-bottom: 10px;color: #f29313;text-transform: uppercase;}
+.contact-form p {font-size: 19px;font-weight: 700;text-align: center;width: 100%;margin: auto;margin-bottom: 10px;color: #fff;text-transform: uppercase;}
 .contact-form .frm-heading {font-weight: 700;font-size: 26px;line-height: 26px; border-bottom: none;color: #fff;text-align: center;text-transform: uppercase;}
 .contact-form p span {display: block;text-transform: capitalize;font-size: 15px;line-height: 20px;padding: 0 27px;font-weight: 600;margin-top: 6px;color: #fff;}
 header .fixed-top {background: #000;padding: 0}
@@ -301,7 +301,7 @@ section.inner-one-band.one-band {margin-top: 80px;}
 a{cursor: pointer !important;}
 .contact {position: relative;padding-top: 80px;}
 .contact:after {background: #1b5ba817;position: absolute;content: '';top: 300px;bottom: 0;left: 0;right: 0;z-index: -1;}
-.contact-form {padding: 50px;background: #01284a;border: 1px solid #01284a;}
+.contact-form {padding: 50px;background: #f29313;border: 1px solid #f29313;}
 .contact-form .section-title {color: #fff;}
 .contact-form .btn-primary {color: #fff;background-color: #f29313;border-color: #f29313;font-size: 18px;padding: 9px 50px;border-radius: 0px !important;}
 .contact-form .btn-primary:hover {color: #fff;background-color: #f29313;border-color: #f29313;font-size: 18px;padding: 9px 50px;border-radius: 0px !important;}
